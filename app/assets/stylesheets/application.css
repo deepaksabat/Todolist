@@ -1,0 +1,105 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require bootstrap
+ *= require font-awesome
+ *= require_self
+ */
+
+body {
+  padding: 20px 0 40px 0;
+  background-color: #F8F8F8;
+  background-image:url('patterns/vichy.png');
+}
+
+nav {
+  padding-bottom: 35px;
+  color: #7f7f7f;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1024px;
+  background-color: #ffffff;
+  padding: 20px 60px 60px 60px;
+  -webkit-box-shadow: 0 0 6px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0 0 6px rgba(0,0,0,0.3);
+  box-shadow: 0 0 6px rgba(0,0,0,0.3);
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+
+.brand {
+  font-family: 'coquette';
+}
+
+h1 a:hover {
+  text-decoration: none;
+}
+
+h1.brand {
+  font-style: bold;
+  font-weight: 700;
+  font-size: 70px;
+  padding-bottom: 40px;
+  padding-top: 0;
+  text-align: center;
+  }
+
+h2, p, label, .navbar {
+  font-family: 'Lato', sans-serif;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: Lavender;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.task {
+  font-family: 'Lato', sans-serif;
+  text-rendering: optimizeLegibility;
+  font-size: 16px;
+}
+
+.task-open {
+  color: #565656;
+}
+
+.task-closed {
+  color: #bfbfbf;
+  font-style: italic;
+}
+
+.task-text {
+  position: relative;
+  bottom: 6px;
+  left: 25px;
+}
+
+.edit {
+  padding-right: 15px;
+}
+
+.fa {
+  opacity: 0.3;
+}
+
+.fa:hover {
+  transition: opacity 0.3s;
+  opacity: 0.8;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
