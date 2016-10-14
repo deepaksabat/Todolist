@@ -1,8 +1,8 @@
-[url=https://postimg.org/image/804qpu0et/][img]https://s18.postimg.org/804qpu0et/image.png[/img][/url]
+https://postimg.org/image/804qpu0et
 
-[url=https://postimg.org/image/hyppcb9ud/][img]https://s18.postimg.org/hyppcb9ud/image.png[/img][/url]
+https://postimg.org/image/hyppcb9ud
 
-[url=https://postimg.org/image/w6fe0ymj9/][img]https://s18.postimg.org/w6fe0ymj9/image.png[/img][/url]
+https://postimg.org/image/w6fe0ymj9
 
 # Welcome to Happy To-Do List.
 
